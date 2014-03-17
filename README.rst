@@ -12,6 +12,10 @@ Quick Start
 To use vncdotool you will need a VNC server, most virtualization products
 include one, you can use RealVNC, TightVNC or clone you Desktop using x11vnc.
 
+Ubuntu dependencies::
+
+    sudo apt-get install python-dev
+
 Once you have a server running you can install vncdotool from pypi::
 
     pip install vncdotool
